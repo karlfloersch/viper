@@ -21,7 +21,6 @@ setup(
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=[
         'ethereum == 1.3.7',
-        'serpent',
         'nose',
     ],
     scripts=['bin/viper']
